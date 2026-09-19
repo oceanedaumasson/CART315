@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60d5bf22-363c-4d73-b69e-e23be4f1ab73" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.000000057606407" />
+      <entry key="MS500" value="1.0987763498415084" />
+      <entry key="S2" value="2.577998760414436" />
+      <entry key="S5" value="3.7561914978317827" />
+      <entry key="S10" value="4.32271583252388" />
+      <entry key="S30" value="5.583191628492198" />
+      <entry key="S60" value="8.927286618674142" />
+      <entry key="M2" value="15.209973425799554" />
+      <entry key="M5" value="26.251433015928626" />
+      <entry key="M10" value="33.60892619854981" />
+      <entry key="M15" value="36.84147656916802" />
+      <entry key="M30" value="40.600215274265445" />
+      <entry key="H1" value="42.711633105165866" />
+      <entry key="H2" value="43.83253508622599" />
+      <entry key="H4" value="44.41029343334692" />
+      <entry key="D1" value="44.90087237122798" />
+      <entry key="W1" value="44.98581808191667" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.8427513037334343E-141" />
+      <entry key="MS500" value="7.130062642210028E-29" />
+      <entry key="S2" value="9.189107667730157E-8" />
+      <entry key="S5" value="0.0015339512191313168" />
+      <entry key="S10" value="0.04178832722491286" />
+      <entry key="S30" value="0.7523090197022084" />
+      <entry key="S60" value="2.1551799583173588" />
+      <entry key="M2" value="4.081907070265689" />
+      <entry key="M5" value="6.634165588335657" />
+      <entry key="M10" value="8.05596906180519" />
+      <entry key="M15" value="8.635245169003015" />
+      <entry key="M30" value="9.280055160039641" />
+      <entry key="H1" value="9.629977934808613" />
+      <entry key="H2" value="9.812388842216636" />
+      <entry key="H4" value="9.905533062306207" />
+      <entry key="D1" value="9.984162676156956" />
+      <entry key="W1" value="9.997735238791167" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.004245109267221922" />
+      <entry key="MS500" value="0.41857790218188373" />
+      <entry key="S2" value="2.2102194435255917" />
+      <entry key="S5" value="3.548216743276526" />
+      <entry key="S10" value="4.2382347749666325" />
+      <entry key="S30" value="6.233700484965727" />
+      <entry key="S60" value="10.95625492210867" />
+      <entry key="M2" value="19.169425992592284" />
+      <entry key="M5" value="32.80231325598806" />
+      <entry key="M10" value="41.61307404200638" />
+      <entry key="M15" value="45.43931264218071" />
+      <entry key="M30" value="49.85993626937462" />
+      <entry key="H1" value="52.3309930455513" />
+      <entry key="H2" value="53.6394961200565" />
+      <entry key="H4" value="54.313082082931984" />
+      <entry key="D1" value="54.88457333733569" />
+      <entry key="W1" value="54.9834872556924" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3JYNqQHIjAIEWDEREBkEdN7bcKx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.3.24f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath $PROJECT_DIR$ -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.3.24f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath $PROJECT_DIR$ -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" useMixedMode="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60d5bf22-363c-4d73-b69e-e23be4f1ab73" name="Changes" comment="" />
+      <created>1789834243126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789834243126</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
