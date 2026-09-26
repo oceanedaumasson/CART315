@@ -1,6 +1,9 @@
 using System;
 using System.Collections;
+using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
@@ -12,11 +15,17 @@ public class GameManager : MonoBehaviour
     // Time interval for switching sides, can be edited in Unity
     public float minTime = 6f;
     public float maxTime = 16f;
-    public GameObject switchText; 
     
+    // Text
+    public GameObject switchText; 
+    public GameObject gameOverText;
+    public Timer timer;
+    public TMP_Text gameOverTimeText;
+    
+    private bool isGameOver = false;
     private bool isInverseMode = false;
     
-    // Set all of these in Unity
+    // Paddles, set all of these in Unity
     public PlayerController player;
     public CPUController cpu;
     public Paddle leftPaddle;
@@ -27,15 +36,26 @@ public class GameManager : MonoBehaviour
         StartCoroutine(SetInverseMode()); // Starts timer to switch sides
         ApplyPaddles();
         
-        switchText.SetActive(false); // Hide text at start
+        // Hide text at start
+        switchText.SetActive(false);
+        gameOverText.SetActive(false);
         
         StartRound();
     }
 
-    public void StartRound()
+    private void StartRound()
     {
         ball.ResetBall();
         ball.AddStartingForce();
+    }
+
+    private void Update()
+    {
+        // Reset game once space is pressed after game over
+        if (isGameOver && Keyboard.current.spaceKey.wasPressedThisFrame)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
     
     // Coroutine
@@ -44,6 +64,8 @@ public class GameManager : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(Random.Range(minTime, maxTime) - 2f); // Wait certain amount of time
+            if (isGameOver)
+                yield break;
             switchText.SetActive(true);
             yield return new WaitForSeconds(2f); // Last 2 seconds before switch, show text
 
@@ -64,7 +86,22 @@ public class GameManager : MonoBehaviour
 
     public void CourtTriggered(int courtId)
     {
-        score.IncreaseScore((courtId == 0 ? 1 : 0)); //If left court was triggered, right player scores & vice versa
-        StartRound();
+        if (isGameOver)
+            return;
+
+        Paddle missedPaddle = (courtId == 0) ? leftPaddle : rightPaddle;
+        if (missedPaddle == player.paddle)
+        {
+            // Stop game, show game over panel
+            isGameOver = true;
+            timer.isRunning = false;
+            ball.gameObject.SetActive(false);
+            gameOverText.gameObject.SetActive(true);
+            gameOverTimeText.text = "Time: " + timer.time.ToString("F1") + "s";
+        }
+        else
+        {
+            StartRound(); // Normal ball reset if CPU misses
+        }
     }
 }
