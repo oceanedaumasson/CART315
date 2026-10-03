@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c87344f9c3733318",
+            "id": "f7c29951bf1975e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readings/Reading1.md",
+                "file": "Journal/Pong Journal Entries.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reading1"
-            }
-          },
-          {
-            "id": "37fc300267821530",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/Journal.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Journal"
+              "title": "Pong Journal Entries"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,8 +188,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "37fc300267821530",
+  "active": "f7c29951bf1975e7",
   "lastOpenFiles": [
+    "Readings/Reading1.md",
+    "Journal/Pong Journal Entries.md",
+    "Journal/Untitled 1.md",
+    "Journal/Untitled.md",
+    "Untitled",
     "Prototypes/PONG/Temp/UnityTempFile-146ed603d89a34dc29559960c342588a",
     "Prototypes/PONG/Library/ProtocolInstance.json",
     "Prototypes/PONG/Library/Artifacts/96/9617a333376f6f0a3051cb08b7323a23",
@@ -214,8 +204,6 @@
     "Prototypes/PONG/Temp/ADB-Refresh047908fe3ac4245b59371e2a7aae52e1",
     "Prototypes/PONG/Temp/ADB-Refresh1080cf85a986145a0af8afd65c3bf527",
     "Prototypes/PONG/Temp/__Backupscenes/0.backup",
-    "Prototypes/PONG/Temp/__Backupscenes",
-    "Prototypes/PONG/Temp/ADB-Refresh11e3c64ed33384c0389f212f7afb5b0b",
     "Prototypes/PONG/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Editor/AssetEditor/PackageResources/pro/propertiesBackground.png",
     "Prototypes/PONG/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Editor/AssetEditor/PackageResources/pro/foldoutBackground.png",
     "Prototypes/PONG/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/InputSystem/Editor/AssetEditor/PackageResources/pro/actionTreeBackgroundWithoutBorder.png",
@@ -247,9 +235,6 @@
     "Prototypes/PONG/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/Documentation~/virtual-mouse-component-reference.md",
     "Prototypes/PONG/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/Documentation~/videos.md",
     "Prototypes/PONG/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/Documentation~/using-ui-input-module.md",
-    "Prototypes/PONG/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/Documentation~/using-playerinput-workflow.md",
-    "Prototypes/PONG/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/Documentation~/using-direct-workflow.md",
-    "Prototypes/PONG/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/Documentation~/using-actions-workflow.md",
-    "Prototypes/PONG/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/Documentation~/user-rebinding-runtime.md"
+    "Prototypes/PONG/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194/Documentation~/using-playerinput-workflow.md"
   ]
 }
