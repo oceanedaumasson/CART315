@@ -55,12 +55,14 @@ public class Snake : MonoBehaviour
             direction = input;
         }
 
-        // Set each segment's position to be the same as the one it follows. We
-        // must do this in reverse order so the position is set to the previous
-        // position, otherwise they will all be stacked on top of each other.
-        for (int i = segments.Count - 1; i > 0; i--) {
-            segments[i].position = segments[i - 1].position;
+        if (input != Vector2Int.zero)
+        {
+            direction = input;
         }
+
+        // Rotate to face direction of travel
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0f, 0f, angle);
 
         // Move the snake in the direction it is facing
         // Round the values to ensure it aligns to the grid
@@ -72,31 +74,10 @@ public class Snake : MonoBehaviour
         nextUpdate = Time.time + (1f / (speed * speedMultiplier));
     }
 
-    /**public void Grow()
-    {
-        Transform segment = Instantiate(segmentPrefab);
-        segment.position = segments[segments.Count - 1].position;
-        segments.Add(segment);
-    }*/
-
     public void ResetState()
     {
         direction = Vector2Int.right;
         transform.position = Vector3.zero;
-
-        // Start at 1 to skip destroying the head
-        for (int i = 1; i < segments.Count; i++) {
-            Destroy(segments[i].gameObject);
-        }
-
-        // Clear the list but add back this as the head
-        segments.Clear();
-        segments.Add(transform);
-
-        // -1 since the head is already in the list
-       /** for (int i = 0; i < initialSize - 1; i++) {
-             Grow();
-        }*/
     }
 
     public bool Occupies(int x, int y)
@@ -128,7 +109,9 @@ public class Snake : MonoBehaviour
             if (moveThroughWalls) {
                 Traverse(other.transform);
             } else {
-                ResetState();
+                Debug.Log("Wall Hit");
+                //ResetState();
+                SceneManager.LoadScene("Scenes/Start");
             }
         }
     }

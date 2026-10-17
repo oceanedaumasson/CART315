@@ -16,6 +16,7 @@ public class Food : MonoBehaviour
 
     private void Start()
     {
+        RandomizePosition();
         spawnCoroutine = StartCoroutine(SpawnCoroutine());
     }
 
@@ -45,6 +46,7 @@ public class Food : MonoBehaviour
         }
 
         transform.position = new Vector2(x, y);
+        transform.rotation = Quaternion.Euler(0, 0, Random.Range(0, 360));
     }
 
     /**public void OnReached()
@@ -61,7 +63,7 @@ public class Food : MonoBehaviour
         {
             float secondsPerStep = 1f / (snake.speed * snake.speedMultiplier);
             
-            yield return new WaitForSeconds((ShortestSteps() + 2) * secondsPerStep);
+            yield return new WaitForSeconds((ShortestSteps() + 1.5f) * secondsPerStep);
             RandomizePosition();
         }
     }
