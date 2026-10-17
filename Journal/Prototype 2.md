@@ -1,6 +1,13 @@
 
-Journal Entry 1: Before I Start
-
+**Journal Entry 1: Before I Start**
 This idea was inspired by a recurring dream I used to have as a kid. In the dream, I had to chase down someone (usually someone in my family/my best friend) to tell them something. What? I don't know. However much I chased after them though, I could never reach them. My voice didn't work, so I couldn't yell out, and I also just kept on tripping. Anytime I'd get close I would fall down and they'd get farther away again. Anyway, not sure how to turn all of that into a game, but maybe I can start with the general idea. 
 I'll use snake as a template. The player is the snake, the 'apple' is now another person. Instead of it disappearing when you touch it, it could disappear right before and reappear elsewhere. The player wouldn't grow, that's not the goal. The goal could be (hopefully, if I can implement it) that you chase after this person but they disappear after a couple seconds *unless* you take the absolute shortest path to them. If you're even one block late, they disappear. Hopefully this makes the game harder but still beatable. Maybe there could be levels, with bigger and bigger maps?
 As a first step, I will try to implement the apple disappearing and reappearing after a few seconds mechanic.
+
+**Journal Entry 2:**
+End of first day working on this, I now have the apple (now called target) disappearing correctly. It calculates the shortest path from player to target and randomizes the target location after that time. The point of this is to evoke that same feeling I got from my dreams, where I continuously (and urgently) chase the target forever until the dream ends and I wake up. I hope to get the player to feel aggravated, but not hopeless exactly. Although it may feel repetitive, it is still possible for them to win.
+
+After getting that core mechanic to work, it took me a while to figure out an actual loop as well as win/lose conditions. I implemented a timer, that way the round has a time limit (1 minute for now) for the player to catch up to the target. If they don't, or if they run into a wall, the game ends and they lose. If they do catch up, they win. 
+
+Though it feels good to me conceptually, I know I still need the game to be enjoyable for users. I also need to add some context. 
+Overall from here, what I need to add are start and end scenes, a bit of the actual idea (in writing?) , and some more urgency(!) in gameplay.

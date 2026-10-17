@@ -205,6 +205,9 @@
   },
   "active": "4486eb127611d0e2",
   "lastOpenFiles": [
+    "Journal/Pong Journal Entries.md",
+    "Journal/Prototype 2.md",
+    "Prototypes/Prototype2/Temp/ADB-Refresh0aa881235855844d89351556d2a5be7f",
     "Prototypes/Prototype2/Temp/ADB-Refresh9e9743866d05e4cc8b614c858c10acc6",
     "Prototypes/Prototype2/Temp/ADB-Refreshc2acbdaf27f73454294aa8408b3e66ec",
     "Prototypes/Prototype2/Temp/UnityTempFile-dc65ca046158f467986942182a71dc02",
@@ -214,8 +217,6 @@
     "Prototypes/Prototype2/Temp/ADB-Refreshbe8c53ec424554f878e23fcc0163c8b2",
     "Prototypes/Prototype2/Temp/ADB-Refreshf2148056cab1f413e8e6540c97d286d9",
     "Prototypes/Prototype2/Temp/ADB-Refreshcbad84bc45d3c4df49d395791c991a07",
-    "Prototypes/Prototype2/Temp/ADB-Refreshd1c0324dfc973491b8efcc05463d23aa",
-    "Prototypes/Prototype2/Temp/ADB-Refreshc4c081ff9cfca41c2b1d7d9a86ad315c",
     "Prototypes/Prototype2/Assets/Sprites/cloud.png",
     "Prototypes/Prototype2/Assets/Sprites/player.png",
     "Prototypes/Prototype2/Assets/Sprites/target.png",
@@ -249,7 +250,6 @@
     "Prototypes/Prototype2/Library/PackageCache/com.unity.ugui@b996e7548785/Documentation~/TextMeshPro/Sprites.md",
     "Prototypes/Prototype2/Library/PackageCache/com.unity.ugui@b996e7548785/Documentation~/TextMeshPro/ShadersDistanceFieldSurfaceMobile.md",
     "Prototypes/Prototype2/Library/PackageCache/com.unity.ugui@b996e7548785/Documentation~/TextMeshPro/ShadersDistanceFieldSurface.md",
-    "Prototypes/Prototype2/Library/PackageCache/com.unity.ugui@b996e7548785/Documentation~/TextMeshPro/ShadersDistanceFieldMobile.md",
-    "Prototypes/Prototype2/Library/PackageCache/com.unity.ugui@b996e7548785/Documentation~/TextMeshPro/ShadersDistanceFieldMaskingMobile.md"
+    "Prototypes/Prototype2/Library/PackageCache/com.unity.ugui@b996e7548785/Documentation~/TextMeshPro/ShadersDistanceFieldMobile.md"
   ]
 }
