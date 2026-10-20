@@ -24,30 +24,35 @@ public class Food : MonoBehaviour
     public void RandomizePosition()
     {
         Bounds bounds = gridArea.bounds;
+        Obstacle[] obstacles = FindObjectsByType<Obstacle>(FindObjectsSortMode.None);
 
-        // Pick a random position inside the bounds
-        // Round the values to ensure it aligns with the grid
-        int x = Mathf.RoundToInt(Random.Range(bounds.min.x, bounds.max.x));
-        int y = Mathf.RoundToInt(Random.Range(bounds.min.y, bounds.max.y));
-
-        // Prevent the food from spawning on the snake
-        while (snake.Occupies(x, y))
+        for (int i = 0; i < 200; i++)
         {
-            x++;
+            int x = Mathf.RoundToInt(Random.Range(bounds.min.x, bounds.max.x));
+            int y = Mathf.RoundToInt(Random.Range(bounds.min.y, bounds.max.y));
 
-            if (x > bounds.max.x)
+            if (IsFree(x, y, obstacles))
             {
-                x = Mathf.RoundToInt(bounds.min.x);
-                y++;
-
-                if (y > bounds.max.y) {
-                    y = Mathf.RoundToInt(bounds.min.y);
-                }
+                transform.position = new Vector2(x, y);
+                transform.rotation = Quaternion.Euler(0, 0, Random.Range(0, 360));
+                return;
             }
         }
+    }
 
-        transform.position = new Vector2(x, y);
-        transform.rotation = Quaternion.Euler(0, 0, Random.Range(0, 360));
+    // Makes sure not to spawn on player or obstacles
+    private bool IsFree(int x, int y, Obstacle[] obstacles)
+    {
+        if (snake.Occupies(x, y))
+            return false;
+        
+        foreach (Obstacle obstacle in obstacles)
+        {
+            if (obstacle.Occupies(x, y))
+                return false;
+        }
+
+        return true;
     }
 
     /**public void OnReached()
@@ -84,5 +89,4 @@ public class Food : MonoBehaviour
 
         return steps;
     }
-
 }
