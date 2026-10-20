@@ -8,20 +8,29 @@ public class Timer : MonoBehaviour
     public float timeValue = 90;
     public TMP_Text timeText;
 
+    public bool keepTiming = true;
+    
     void Update()
     {
-        if (timeValue > 0)
+        if (keepTiming)
         {
             timeValue -= Time.deltaTime;
+            if (timeValue <= 0) 
+            {
+                timeValue = 0; 
+                DisplayTime(timeValue);
+                SceneManager.LoadScene("Scenes/Game Over");
+            }
         }
-        else
-        {
-            SceneManager.LoadScene("Scenes/Start");
-        }
-        
+
         DisplayTime(timeValue);
     }
 
+    public void StopTimer()
+    {
+        keepTiming = false;
+    }
+    
     void DisplayTime(float timeToDisplay)
     {
         if (timeToDisplay < 0)

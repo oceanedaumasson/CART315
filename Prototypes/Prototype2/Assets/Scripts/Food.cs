@@ -6,6 +6,7 @@ public class Food : MonoBehaviour
 {
     public Collider2D gridArea;
     private Snake snake;
+    public float extraStep = 1.5f;
     
     private Coroutine spawnCoroutine;
     
@@ -63,7 +64,7 @@ public class Food : MonoBehaviour
         {
             float secondsPerStep = 1f / (snake.speed * snake.speedMultiplier);
             
-            yield return new WaitForSeconds((ShortestSteps() + 1.5f) * secondsPerStep);
+            yield return new WaitForSeconds((ShortestSteps() + extraStep) * secondsPerStep);
             RandomizePosition();
         }
     }

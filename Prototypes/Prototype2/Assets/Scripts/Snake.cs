@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -15,9 +16,15 @@ public class Snake : MonoBehaviour
     private readonly List<Transform> segments = new List<Transform>();
     private Vector2Int input;
     private float nextUpdate;
-
+    
+    public GameObject successPanel;
+    public Timer timer;
+    public Stopwatch stopwatch;
+    public TMP_Text successTimeText;
+    
     private void Start()
     {
+        successPanel.SetActive(false);
         ResetState();
     }
 
@@ -98,7 +105,12 @@ public class Snake : MonoBehaviour
         if (other.gameObject.CompareTag("Food"))
         {
             Debug.Log("Target Reached!");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            speed = 0;
+            
+            timer.StopTimer();
+            stopwatch.StopStopwatch();
+
+            successPanel.SetActive(true);
         }
         else if (other.gameObject.CompareTag("Obstacle"))
         {
@@ -111,7 +123,7 @@ public class Snake : MonoBehaviour
             } else {
                 Debug.Log("Wall Hit");
                 //ResetState();
-                SceneManager.LoadScene("Scenes/Start");
+                SceneManager.LoadScene("Scenes/Game Over");
             }
         }
     }
