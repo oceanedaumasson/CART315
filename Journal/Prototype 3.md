@@ -1,0 +1,4 @@
+**Journal Entry 1**
+I got really inspired by the environment/atmosphere in the book (and movie) "Annihilation" by Jeff Vandermeer. Specifically the Shimmer, which is a giant, half-transparent wall which can only be traversed through a small passage way. Although that was my original inspiration, my prototype now is very different from it. However, I did stick with the idea of having some sort of tunnel/passage for the player to go through in order to get to the main area. 
+
+My scene is separated into 3 places: the first room (right now just a black box), the tunnel and the actual environment with the purple stone and arches. I kept the original wind sound from the template, but added extra atmospheric sounds in the tunnel and main area to go along with it. 
