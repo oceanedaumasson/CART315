@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/Prototype 3.md",
+                "file": "Readings/Reading 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prototype 3"
+              "title": "Reading 3"
             }
           }
         ],
@@ -219,19 +219,22 @@
   },
   "active": "214f675ec9e49b33",
   "lastOpenFiles": [
-    "Journal/Prototype 2.md",
+    "Readings/Reading 2.md",
+    "Readings/Reading 3.md",
+    "Readings/Reading 1.md",
     "Journal/Prototype 3.md",
+    "Prototypes/Prototype3/Library/ProtocolInstance.json",
+    "Prototypes/Prototype3/Temp/__Backupscenes/0.backup",
+    "Prototypes/Prototype3/Temp/__Backupscenes",
+    "Prototypes/Prototype3/Temp/ADB-Refresha457198681d894d67a31769e4210414d",
+    "Prototypes/Prototype3/Temp/ADB-Refreshce6b9bfeeb4e6423999561855128bd00",
+    "Journal/Prototype 2.md",
     "Journal/Prototype 1 Pong.md",
     "Prototypes/Prototype2/Temp/UnityTempFile-4b20c79cdfd7a4bf8b2c4b55f54cff7f",
     "Prototypes/Prototype2/Library/Artifacts/8b/8b92bbf43997dcc61fbdaea760f0dd7d",
     "Prototypes/Prototype2/Assets/Scenes/Level4.unity.meta",
     "Prototypes/Prototype2/Assets/Scenes/Level4.unity",
     "Prototypes/Prototype2/Temp/ADB-Refresh277c29f599a2e49beb91584f247dd464",
-    "Prototypes/Prototype2/Temp/ADB-Refresh9ea62e957f66a436da3ee0f442678976",
-    "Prototypes/Prototype2/Temp/ADB-Refresh6424bc5f530d84942a0b9fee9dbfaa1f",
-    "Prototypes/Prototype2/Temp/ADB-Refresh4f2914678a51a4496a088974f7ac6ad5",
-    "Prototypes/Prototype2/Library/Artifacts/44/4423528f7aaa22306e5fd9b2568bd94a",
-    "Prototypes/Prototype2/Library/Artifacts/34/348438b92cc2a57a4dfad738e3f78717",
     "Prototypes/Prototype2/Assets/Sprites/uiAssets.png",
     "Prototypes/Prototype2/Assets/Sprites/cloud.png",
     "Prototypes/Prototype2/Assets/Sprites/player.png",
@@ -261,9 +264,6 @@
     "Prototypes/Prototype2/Library/PackageCache/com.unity.ugui@b996e7548785/Documentation~/TextMeshPro/TMPObjects.md",
     "Prototypes/Prototype2/Library/PackageCache/com.unity.ugui@b996e7548785/Documentation~/TextMeshPro/TMPObjectUIText.md",
     "Prototypes/Prototype2/Library/PackageCache/com.unity.ugui@b996e7548785/Documentation~/TextMeshPro/TMPObject3DText.md",
-    "Prototypes/Prototype2/Library/PackageCache/com.unity.ugui@b996e7548785/Documentation~/TextMeshPro/StyleSheets.md",
-    "Prototypes/Prototype2/Library/PackageCache/com.unity.ugui@b996e7548785/Documentation~/TextMeshPro/Sprites.md",
-    "Prototypes/Prototype2/Library/PackageCache/com.unity.ugui@b996e7548785/Documentation~/TextMeshPro/ShadersDistanceFieldSurfaceMobile.md",
-    "Prototypes/Prototype2/Library/PackageCache/com.unity.ugui@b996e7548785/Documentation~/TextMeshPro/ShadersDistanceFieldSurface.md"
+    "Prototypes/Prototype2/Library/PackageCache/com.unity.ugui@b996e7548785/Documentation~/TextMeshPro/StyleSheets.md"
   ]
 }

@@ -1,0 +1,10 @@
+The Anatomy of Prototypes: Prototypes as Filters, Prototypes as Manifestations  
+of Design Ideas
+
+This reading attempts to better understand prototyping in the fields of human-computer interaction and design. It does so by categorizing different kinds of prototypes, differentiating the terms ‘prototype’ and ‘prototyping’, and defining the anatomy of a prototype. The authors also explicitly state that their work is less about telling designers how to prototype and more about what information they might gather from these ideas and case studies.
+
+The text states that “current prototyping research can best be described as an ongoing attempt to come up with what to do with prototypes without understanding what they actually are”. This suggests that existing attempts to define a prototype are mostly focused on the ways of using prototypes in the development and design process, less so in what prototypes actually consist of or what we may learn from studying them. By using the term ‘anatomy of a prototype’, the authors intend to delve deeper to the actual parts that make up different prototypes. They do so by categorizing prototypes into either filter or manifestation dimensions. Filtering emphasizing what is omitted or shown, and manifestation being about materials and scope.
+
+In Case 1: Prototyping a House, the emphasis on filtering is clearly shown in how just the difference in how the two prototypes communicated their spatial structure impacted the users’ perceptions of them. Their feelings on the dimensions and aesthetics of the building, their ideas for further improvements and how much they remembered all changed depending on which prototype they were shown.
+
+From this reading, I understand that a prototype is more than just a small part in the design process. The way it is constructed can and will heavily impact my perception of my design object, as well as that of others who might use it. I will try to implement this into my prototyping. Although all of our designing is done in Unity, meaning I cannot experiment much with materials, I can still work on scope and resolution.
