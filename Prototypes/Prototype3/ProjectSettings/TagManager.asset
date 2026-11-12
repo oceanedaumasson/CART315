@@ -9,6 +9,7 @@ TagManager:
   - Arch1
   - Arch2
   - Arch3
+  - Orb
   layers:
   - Default
   - TransparentFX
