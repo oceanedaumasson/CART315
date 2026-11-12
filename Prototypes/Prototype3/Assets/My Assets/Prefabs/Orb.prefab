@@ -461,7 +461,7 @@ GameObject:
   - component: {fileID: 6534032425904195948}
   - component: {fileID: 2521312724794529844}
   m_Layer: 0
-  m_Name: Object
+  m_Name: Orb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

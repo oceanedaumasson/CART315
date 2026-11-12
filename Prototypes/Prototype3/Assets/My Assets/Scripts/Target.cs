@@ -7,6 +7,7 @@ public class Target : MonoBehaviour
 
     void Awake()
     {
+        Debug.Log("Press 'e' to pick up and 't' to drop objects");
         rb = GetComponent<Rigidbody>();
         colliders = GetComponentsInChildren<Collider>();
     }
@@ -36,6 +37,7 @@ public class Target : MonoBehaviour
         if (rb != null)
         {
             rb.isKinematic = false;
+            rb.AddForce(250f,0f,0f);
             rb.useGravity = true;
         }
     }
