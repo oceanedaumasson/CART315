@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readings/Reading 3.md",
+                "file": "Journal/Prototype 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reading 3"
+              "title": "Prototype 4"
             }
           }
         ],
@@ -219,6 +219,11 @@
   },
   "active": "214f675ec9e49b33",
   "lastOpenFiles": [
+    "Journal/Prototype 3.md",
+    "Journal/Prototype 4.md",
+    "Journal/Prototype 1.md",
+    "Journal/Prototype 2.md",
+    "Readings/Reading 3.md",
     "Prototypes/Prototype3/Temp/ADB-Refresh2627a6423d26f452ea51b41588b1f71d",
     "Prototypes/Prototype3/Temp/ADB-Refresh6da8e74b1f0454e4aa4c2a5f3eefcda4",
     "Prototypes/Prototype3/Library/UndoStack.bin",
@@ -229,13 +234,8 @@
     "Prototypes/Prototype3/Library/Artifacts/c7/c72c785117e50713c32e6ac60110c2ec",
     "Prototypes/Prototype3/Library/Artifacts/53/537f1ccc5787ce1f0cd2f81958606377",
     "Prototypes/Prototype3/Logs/shadercompiler-AssetImportWorker0-0.log",
-    "Prototypes/Prototype3/Logs/shadercompiler-AssetImportWorker1-0.log",
     "Readings/Reading 2.md",
-    "Readings/Reading 3.md",
     "Readings/Reading 1.md",
-    "Journal/Prototype 3.md",
-    "Journal/Prototype 2.md",
-    "Journal/Prototype 1 Pong.md",
     "Prototypes/Prototype2/Assets/Sprites/uiAssets.png",
     "Prototypes/Prototype2/Assets/Sprites/cloud.png",
     "Prototypes/Prototype2/Assets/Sprites/player.png",
