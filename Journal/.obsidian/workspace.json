@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prototype 3.md",
+                "file": "Prototype 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prototype 3"
+              "title": "Prototype 4"
             }
           }
         ]
@@ -187,8 +187,9 @@
   },
   "active": "3becacf2ad4c0061",
   "lastOpenFiles": [
-    "Prototype 4.md",
+    "Prototype 1.md",
+    "Prototype 2.md",
     "Prototype 3.md",
-    "Prototype 2.md"
+    "Prototype 4.md"
   ]
 }
