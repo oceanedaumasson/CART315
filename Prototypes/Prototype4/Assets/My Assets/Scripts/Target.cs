@@ -11,7 +11,13 @@ public class Target : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         colliders = GetComponentsInChildren<Collider>();
     }
-
+    
+    void Update ()
+    {
+        transform.Rotate(0, 0, 50 * Time.deltaTime);
+    }
+    
+    
     public void PickUp(Transform destination)
     {
         if (rb != null)
