@@ -3,7 +3,7 @@ using UnityEngine;
 public class ArchSound : MonoBehaviour
 {
     private AudioSource audioSource;
-    
+
     void Start() 
     {
         audioSource = GetComponent<AudioSource>();
@@ -14,7 +14,6 @@ public class ArchSound : MonoBehaviour
         if (other.CompareTag("Player")) 
         { 
             audioSource.Play();
-
         }
     }
     
