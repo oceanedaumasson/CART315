@@ -2,34 +2,30 @@ using UnityEngine;
 
 public class PitSounds : MonoBehaviour
 {
-    public GameObject growlSound;
-    public float addPerSecond; 
-    public float minSoundDistance = 3;
-    public float maxSoundDistance = 6;
-    
-    public AudioSource growl2;
-    public AudioSource growl3;
+    public GameObject throbSound;
+    public GameObject groanSound;
+    public float addPerSecond;
+    public float startVolume;
 
-    void Start()
-    {
-        
+    [SerializeField] private pitSoundTrigger PitSoundTrigger;
+    
+    void Start(){
+        InvokeRepeating("PlayGroanSound",25f,45f);
     }
 
     void Update()
     {
-        if (minSoundDistance == 20)
+        throbSound.GetComponent<AudioSource>().volume = startVolume;
+
+        if (PitSoundTrigger.beastFed)
         {
-            growl2.Play();
+            throbSound.GetComponent<AudioSource>().volume = 0;
         }
         
-        if (minSoundDistance == 30)
-        {
-            growl3.Play();
-        }
-            
-        growlSound.GetComponent<AudioSource>().minDistance = minSoundDistance;
-        growlSound.GetComponent<AudioSource>().maxDistance = maxSoundDistance;
-        minSoundDistance += addPerSecond * Time.deltaTime;
-        maxSoundDistance += addPerSecond * Time.deltaTime;
+        startVolume += addPerSecond * Time.deltaTime;
+    }
+    
+    void PlayGroanSound(){
+        groanSound.GetComponent<AudioSource>().Play();
     }
 }
