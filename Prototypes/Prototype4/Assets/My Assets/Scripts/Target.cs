@@ -7,7 +7,6 @@ public class Target : MonoBehaviour
 
     void Awake()
     {
-        Debug.Log("Press 'e' to pick up and 't' to drop objects");
         rb = GetComponent<Rigidbody>();
         colliders = GetComponentsInChildren<Collider>();
     }

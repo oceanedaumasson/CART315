@@ -3,16 +3,22 @@ using UnityEngine;
 public class ArchSound : MonoBehaviour
 {
     private AudioSource audioSource;
+    public bool playOnPlayerEnter = false;
 
-    void Start() 
+    void Awake() 
     {
         audioSource = GetComponent<AudioSource>();
     }
-    
-    void OnTriggerEnter(Collider other) 
+
+    public void PlaySound()
     {
-        if (other.CompareTag("Player")) 
-        { 
+        audioSource.Play();
+    }
+    
+    void OnTriggerEnter(Collider other)
+    {
+        if (playOnPlayerEnter && other.CompareTag("Player"))
+        {
             audioSource.Play();
         }
     }
