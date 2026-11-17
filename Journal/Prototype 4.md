@@ -16,3 +16,8 @@ This serves its purpose in guiding and showing the player the significance of th
 
 However, these aspects all still feel a bit disconnected to me, and I'd like the 'feeding' gameplay to have more significance on the sounds like it did in my original idea (keeping the creature quiet). I want the sounds from the pit to get increasingly loud and distracting until the player is forced to interact with it. Instead of having a lose condition if the player ignores the pit/orbs, I can more forcefully push them in the right direction with this. This could make the experience last a bit longer, maybe more interesting too, since the player is forced to go back again and again to do this one task. If I had more time with this project, this could be much more impactful to the gameplay after I added more areas to explore.
 Still need to add UI instructions too!
+
+**Journal Entry 3**
+After having added the increasing pit audio mechanic, the environment and its elements are starting to feel much better connected. The sounds combine to create the implication that something is alive and present in the space, even if it remains unseen.
+
+If I keep working on this, I could go even further by simply adding _more_. More sounds, more volume, more dissonance, all increasingly frequent. Still, I should think about keeping a good balance for the loop and not make it unbearable too fast, so as to give the player a chance to actually explore on their own with no disturbances.
