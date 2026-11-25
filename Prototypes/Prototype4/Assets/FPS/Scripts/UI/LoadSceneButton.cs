@@ -31,5 +31,7 @@ namespace Unity.FPS.UI
         {
             SceneManager.LoadScene(SceneName);
         }
+
+        
     }
 }
