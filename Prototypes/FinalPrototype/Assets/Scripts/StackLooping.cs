@@ -21,7 +21,6 @@ public class StackLooping : MonoBehaviour
     
     public void OnMyButtonClick()
     {
-        Debug.Log("Button was pressed");
         NextCard();
     }
 
